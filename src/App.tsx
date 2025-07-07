@@ -1,12 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
 import Home from './pages/Home'
 import About from './pages/About'
-// import Appointment from './pages/Appointment'
+import Appointment from './pages/Appointment'
 import Contact from './pages/Contact'
-import Admin from './pages/Admin'
 
 export default function App() {
   return (
@@ -17,9 +15,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/appointment" element={<Appointment />} /> */}
+          <Route path="/appointment" element={<Appointment />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
       <Footer />
