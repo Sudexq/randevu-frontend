@@ -8,7 +8,7 @@ export default function Footer() {
             href="mailto:iletisim@randevusitesi.com"
             className="text-[#048A81] underline hover:text-[#037368] transition"
           >
-            iletisim@randevusitesi.com
+            sitedeki bilgiler gerçeklik yansıtmamaktadır. Örnek olması için kullanılmıştır.
           </a>
         </p>
       </div>
