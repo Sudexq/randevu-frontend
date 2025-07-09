@@ -5,7 +5,7 @@ export default function About() {
         {/* Görsel Alanı */}
         <div className="w-[50%] md:w-1/4 md:m-20">
           <img
-            src="src/assets/profile.png"
+            src="/profile.png"
             alt="Ayşe Yılmaz"
             className="rounded-2xl shadow-lg w-full object-cover"
           />

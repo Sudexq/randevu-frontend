@@ -15,14 +15,14 @@ export default function Contact() {
           <div className="space-y-6 text-gray-800 text-lg md:ml-10 md:mt-10">
             <div className="flex items-center gap-4">
               <FaEnvelope className="text-[#048A81] text-2xl" />
-              <a href="mailto:ayseyilmaz@psikolog.com" className="hover:underline">
+              <a href="mailto:" className="hover:underline">
                 ayseyilmaz@psikolog.com
               </a>
             </div>
 
             <div className="flex items-center gap-4">
               <FaLinkedin className="text-[#048A81] text-2xl" />
-              <a href="https://linkedin.com/in/ayseyilmaz" target="_blank" className="hover:underline">
+              <a href="https://linkedin.com" target="_blank" className="hover:underline">
                 linkedin.com/in/ayseyilmaz
               </a>
             </div>
@@ -36,7 +36,7 @@ export default function Contact() {
 
             <div className="flex items-center gap-4">
               <FaInstagram className="text-[#048A81] text-2xl" />
-              <a href="https://instagram.com/psk.ayseyilmaz" target="_blank" className="hover:underline">
+              <a href="https://instagram.com" target="_blank" className="hover:underline">
                 @psk.ayseyilmaz
               </a>
             </div>
